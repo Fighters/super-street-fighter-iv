@@ -1,0 +1,95 @@
+{
+  "names": {
+    "default": {
+      "roman": "T. Hawk"
+    },
+    "japan": {
+      "roman": "T. Hawk",
+      "original": "サンダー・ホーク"
+    }
+  },
+  "images": {
+    "face": "thawk.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Neck Hanging Tree",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Mexican Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Thrust Peak",
+        "input": ":df:+[LP]"
+      },
+      {
+        "name": "Heavy Shoulder",
+        "input": "{duringAngledJump} :d:+[MP]"
+      },
+      {
+        "name": "Heavy Body Press",
+        "input": "{duringAngledJump} :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tomahawk Buster",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Mexican Typhoon",
+        "input": "{close} :360:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Condor Spire",
+        "input": ":rdp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Condor Dive",
+        "input": "{duringVerticalOrForwardJump}, [LP]+[MP]+[HP]"
+      },
+      {
+        "name": "EX Condor Dive",
+        "input": ":dp:+[P]+[P] > [LP]+[MP]+[HP]",
+        "extraInfo": "{exCondorDive}"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Double Typhoon",
+        "input": "{close} :360::360:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Raging Typhoon",
+        "input": "{close} :360::360:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Raging Slash",
+        "input": ":hcb::hcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "exCondorDive": "requires 2 stocks of super meter"
+    },
+    "portuguese": {
+      "exCondorDive": "requer 2 barras do medidor de super"
+    }
+  }
+}
