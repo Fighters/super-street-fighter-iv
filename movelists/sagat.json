@@ -65,6 +65,11 @@
         "input": ":dp:+[K]",
         "canBeUpgraded": true,
         "costOfUpgrade": 1
+      },
+      {
+        "name": "Angry Charge",
+        "input": ":qcb::qcb:+[P]",
+        "extraInfo": "{angryChargeCost}"
       }
     ],
     "{superCombo}": [
@@ -88,9 +93,11 @@
   },
   "custom_strings": {
     "english": {
+      "angryChargeCost": "requires 1 bar of super meter",
       "sagatFakeKick": "has to be done very quickly"
     },
     "portuguese": {
+      "angryChargeCost": "requer 1 barra do medidor de super",
       "sagatFakeKick": "deve ser feito rapidamente"
     }
   }
