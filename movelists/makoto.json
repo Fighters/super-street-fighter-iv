@@ -104,7 +104,7 @@
         "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
       }
     ],
-    "{superArt2}": [
+    "{ultraCombo2}": [
       {
         "name": "Abare Tosanami",
         "input": ":qcf::qcf:+[LK]+[MK]+[HK] ({abareTosanamiDistance})"
