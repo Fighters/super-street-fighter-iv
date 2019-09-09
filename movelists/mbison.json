@@ -31,19 +31,27 @@
     "{specialMoves}": [
       {
         "name": "Psycho Crusher",
-        "input": "{charge} :b: :f:+[P]"
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
       },
       {
         "name": "Double Knee Press",
-        "input": "{charge} :b: :f:+[K]"
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
       },
       {
         "name": "Devil Reverse",
-        "input": "{charge} :d: :u:+[P] ({use} :b: {or} :n: {or} :f:+[P] {toAttack})"
+        "input": "{charge} :d: :u:+[P] ({use} :b: {or} :n: {or} :f:+[P] {toAttack})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
       },
       {
         "name": "Head Press",
-        "input": "{charge} :d: :u:+[K] ({use} :b: {or} :f: {toChangeTrajectory} {onHit})"
+        "input": "{charge} :d: :u:+[K] ({use} :b: {or} :f: {toChangeTrajectory} {onHit})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
       },
       {
         "name": "Somersault Skull Diver",
